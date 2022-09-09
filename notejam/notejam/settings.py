@@ -17,10 +17,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': '_DOCKER_REPLACE_DB_NAME_',
         'USER': '_DOCKER_REPLACE_DB_USER_',
-        'PASSWORD': '_DOCKER_REPLACE_DB_USER_PASSWORD_',
+        'PASSWORD': '_DOCKER_REPLACE_DB_PASSWORD_',
         'HOST': '_DOCKER_REPLACE_DB_HOST_',
-        'PORT': '_DOCKER_REPLACE_DP_PORT_',
-        'OPTIONS': {'sslmode': 'require'},
+        'PORT': '_DOCKER_REPLACE_DB_PORT_',
     }
 }
 
